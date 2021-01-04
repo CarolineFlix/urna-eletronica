@@ -106,7 +106,7 @@ function confirma() {
     if(votoBranco === true) {
         votoConfirmado = true;
         console.log("Confirmando como BRANCO...");
-    } else if (numero.lenght === etapa.numeros) {
+    } else if (numero.length === etapa.numeros) {
         votoConfirmado = true;
         console.log("Confirmando como "+numero);
     }
